@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fly",
+    "module": "android.permission",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.permission-1.0.2.aar",
+          "url": "android.permission-1.0.2.aar",
+          "size": 22077,
+          "sha512": "d0cb52c64d63ffb5544e31bdc2ab97a56218f70e155a7a2453dbe8f1553903730c3b6c9d93eba061cff9b0390b43cbc0e894d09468d86214758933866f503068",
+          "sha256": "d74028e5f5a032b940b999695c5888ec1b7e1ee96b203ba00bacd4720a7619bc",
+          "sha1": "7d65afe226ef2df7150c29d0f6475af71918510e",
+          "md5": "0c1311845e1ac8314063004a5e11cf72"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.permission-1.0.2.aar",
+          "url": "android.permission-1.0.2.aar",
+          "size": 22077,
+          "sha512": "d0cb52c64d63ffb5544e31bdc2ab97a56218f70e155a7a2453dbe8f1553903730c3b6c9d93eba061cff9b0390b43cbc0e894d09468d86214758933866f503068",
+          "sha256": "d74028e5f5a032b940b999695c5888ec1b7e1ee96b203ba00bacd4720a7619bc",
+          "sha1": "7d65afe226ef2df7150c29d0f6475af71918510e",
+          "md5": "0c1311845e1ac8314063004a5e11cf72"
+        }
+      ]
+    }
+  ]
+}
