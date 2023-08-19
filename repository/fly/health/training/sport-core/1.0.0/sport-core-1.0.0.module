@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fly.health.training",
+    "module": "sport-core",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sport-core-1.0.0.aar",
+          "url": "sport-core-1.0.0.aar",
+          "size": 141046,
+          "sha512": "20d4635225946f9841aa44ec3e1f9d2a517f11047605113d7528dbd4438d00f1210cd1d707c0574e2ef8c5a40b022fc6840dec8c10d3c5b65fa846f04f706d80",
+          "sha256": "bb74a1533962504417e8fc7023065f1e23240892e08014849df79868617ea457",
+          "sha1": "3e3b756e793d854cd924445a843522bee7d11e57",
+          "md5": "08ba404fa97d0d82a4b618eca05081ac"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sport-core-1.0.0.aar",
+          "url": "sport-core-1.0.0.aar",
+          "size": 141046,
+          "sha512": "20d4635225946f9841aa44ec3e1f9d2a517f11047605113d7528dbd4438d00f1210cd1d707c0574e2ef8c5a40b022fc6840dec8c10d3c5b65fa846f04f706d80",
+          "sha256": "bb74a1533962504417e8fc7023065f1e23240892e08014849df79868617ea457",
+          "sha1": "3e3b756e793d854cd924445a843522bee7d11e57",
+          "md5": "08ba404fa97d0d82a4b618eca05081ac"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sport-core-1.0.0-sources.jar",
+          "url": "sport-core-1.0.0-sources.jar",
+          "size": 21414,
+          "sha512": "98a9c342683e5bf53503edb27871afbc62403fed9dfa78f1900720b698c14d5520c8914d56963d816b848b0ed86f2013fa848b0ad447e51e27711983992173e2",
+          "sha256": "e7b50804c91026e5b7914cf6290f760aae39d7238337071998f187e931a7dc64",
+          "sha1": "9c282f43ac1ec610b2b0083e5aa408c9917ea5ba",
+          "md5": "7287384aa4295d860096be3b132c3ca1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sport-core-1.0.0-javadoc.jar",
+          "url": "sport-core-1.0.0-javadoc.jar",
+          "size": 526913,
+          "sha512": "8977a4d9eecda67898b02e15ce0167e90b080f39d9e4aa036504e32193e262290e2e8ce5ef190ac172c0b6bf9ab37f2410620566cacdd7540e9370800493a80e",
+          "sha256": "81bd809612f751247a563b648d46283ea99cc7390853fce5a81b61867fba3443",
+          "sha1": "ecce74878b72a16c1765a8343c28807b138a7856",
+          "md5": "ca3ef2a3dc18971b043c1d47df935956"
+        }
+      ]
+    }
+  ]
+}

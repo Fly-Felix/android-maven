@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fly.health.training",
+    "module": "floatingwindow",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "floatingwindow-1.0.0.aar",
+          "url": "floatingwindow-1.0.0.aar",
+          "size": 18157,
+          "sha512": "cacf8961834e0680bc4d31484a8c5eaff6f9331a0395b812d8399366aa06f1a2e5fa93a5edf5a90d5051ad13df0a6195a1392c4b7ed7ad06d03edad0e4918d28",
+          "sha256": "84a8595039f0da9000b42db8338415b793c20e045fb72adfae46ce2f3d84f079",
+          "sha1": "77c0744031212e53a2be7e1de997b2538b37ecc7",
+          "md5": "33ab9ead11acc09f2a4ff3e0bb15a989"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "floatingwindow-1.0.0.aar",
+          "url": "floatingwindow-1.0.0.aar",
+          "size": 18157,
+          "sha512": "cacf8961834e0680bc4d31484a8c5eaff6f9331a0395b812d8399366aa06f1a2e5fa93a5edf5a90d5051ad13df0a6195a1392c4b7ed7ad06d03edad0e4918d28",
+          "sha256": "84a8595039f0da9000b42db8338415b793c20e045fb72adfae46ce2f3d84f079",
+          "sha1": "77c0744031212e53a2be7e1de997b2538b37ecc7",
+          "md5": "33ab9ead11acc09f2a4ff3e0bb15a989"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "floatingwindow-1.0.0-sources.jar",
+          "url": "floatingwindow-1.0.0-sources.jar",
+          "size": 9913,
+          "sha512": "b9760b1e12fd10249795f15ed285854a1d978d140c84ce55debeb7a68628905ad869b6b1f3c52bf2ed3b442622dec22f252368aeb3ee398d7f249b74509cb96e",
+          "sha256": "500da4ab2ec81418ea1b4d1f1c1fae752f1d02168030cd459ca77434c93cc77d",
+          "sha1": "84abc4d59b13474ed54de80eb7f1a8c8624cb8a4",
+          "md5": "7f692b6456660bd349b7c1f0a6e58041"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "floatingwindow-1.0.0-javadoc.jar",
+          "url": "floatingwindow-1.0.0-javadoc.jar",
+          "size": 369849,
+          "sha512": "3d8a6f1c30ab0298e1e1a32aa2f9743e3876836a87cc94f7fcd6945e0d79cfd0bcbd816ee31e39c85638dbb4477f7a5262ba3aacbb5c5162c585f905cf75bfd7",
+          "sha256": "aa465b23d868f8520c0ab6159b97c6b13f1b2a21954b060d87759adfd7f654d0",
+          "sha1": "08db5b3a6230929f00e327339c4cbfcf7daf3253",
+          "md5": "5c1d4b7d05048b57761b0c4f88cdca6b"
+        }
+      ]
+    }
+  ]
+}

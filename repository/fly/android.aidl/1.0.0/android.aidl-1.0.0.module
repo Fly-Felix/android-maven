@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fly",
+    "module": "android.aidl",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.aidl-1.0.0.aar",
+          "url": "android.aidl-1.0.0.aar",
+          "size": 38985,
+          "sha512": "ec1dd9e70208c62bf2f9a64ea15d090c35bce7286697b8ff6cbc5066f54169fdb01ec4d51c3526860aa561a74c6f7cfe0ee43408e3cf6242236d6068bddd8aa5",
+          "sha256": "69d85f4a6578d5fe48a20dcbe7c60c13b3e2bcb7113755db11956f9d90bc5322",
+          "sha1": "7529d64dcc1f8a88d7ea6ca5727d76ce0c8b2e58",
+          "md5": "4030aa53865025b883b8239b86b75ea4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.aidl-1.0.0.aar",
+          "url": "android.aidl-1.0.0.aar",
+          "size": 38985,
+          "sha512": "ec1dd9e70208c62bf2f9a64ea15d090c35bce7286697b8ff6cbc5066f54169fdb01ec4d51c3526860aa561a74c6f7cfe0ee43408e3cf6242236d6068bddd8aa5",
+          "sha256": "69d85f4a6578d5fe48a20dcbe7c60c13b3e2bcb7113755db11956f9d90bc5322",
+          "sha1": "7529d64dcc1f8a88d7ea6ca5727d76ce0c8b2e58",
+          "md5": "4030aa53865025b883b8239b86b75ea4"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "android.aidl-1.0.0-sources.jar",
+          "url": "android.aidl-1.0.0-sources.jar",
+          "size": 7061,
+          "sha512": "c2b5fb9ca41c6797b3f7db2cec0ba0813648c6323d7a7c99dd2194002f8170541c3f424d88fa21ae804930aa98cea5c0a5209cde3617fd03edd6734cee8548c7",
+          "sha256": "bfd6e2c08e69499c8fc7b373e75fd93452ec0e708d71c0110262615cefbe5523",
+          "sha1": "8237b787c00995671f05c9d3fcd81cc3a6816b3c",
+          "md5": "25c23020edb2cb67415d4405f450bc9b"
+        }
+      ]
+    }
+  ]
+}

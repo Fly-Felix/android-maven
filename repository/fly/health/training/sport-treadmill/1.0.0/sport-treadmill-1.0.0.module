@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fly.health.training",
+    "module": "sport-treadmill",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sport-treadmill-1.0.0.aar",
+          "url": "sport-treadmill-1.0.0.aar",
+          "size": 36612,
+          "sha512": "886cadbb9e17dcc688639a8e4a0463f06fa5c88a97ea136759942692e6a3db82ff4d938db8b82624d3767550e11a1551427b7e79a88268e6669157a9e459294e",
+          "sha256": "10e31955e94c708a9040a9d9ea88214c59ecf3e8fe44831a5d2dab19a833d745",
+          "sha1": "11d8a462c95b8a9ffdb0011163507b65c3a52b4a",
+          "md5": "c313233835eb93839c3ee6b45412f556"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "fly.health.training",
+          "module": "sport-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sport-treadmill-1.0.0.aar",
+          "url": "sport-treadmill-1.0.0.aar",
+          "size": 36612,
+          "sha512": "886cadbb9e17dcc688639a8e4a0463f06fa5c88a97ea136759942692e6a3db82ff4d938db8b82624d3767550e11a1551427b7e79a88268e6669157a9e459294e",
+          "sha256": "10e31955e94c708a9040a9d9ea88214c59ecf3e8fe44831a5d2dab19a833d745",
+          "sha1": "11d8a462c95b8a9ffdb0011163507b65c3a52b4a",
+          "md5": "c313233835eb93839c3ee6b45412f556"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sport-treadmill-1.0.0-sources.jar",
+          "url": "sport-treadmill-1.0.0-sources.jar",
+          "size": 10616,
+          "sha512": "fee85d254647447876443f8839b13585fbb7e9d95983e8154a03b02cdc2818ca093263ac2e890832d17c917010c012fa7172dbc1a2807ab03f9ec987f589ecd0",
+          "sha256": "b0d15d0485f99497b15b0093ca009920127b4bcfca900aa5a1130e695c0fb345",
+          "sha1": "49c556ba1c05954da52dfca6b587cf2bc1d38e88",
+          "md5": "1ca1048eb8cedc7c9e16334b72fbd59d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sport-treadmill-1.0.0-javadoc.jar",
+          "url": "sport-treadmill-1.0.0-javadoc.jar",
+          "size": 365477,
+          "sha512": "d8d2cbb71d794ba5aa8045c4e9dd276adb5aab0315473057b57039950d16a4c3654fa802752c97670b3563a991b5b59a54ffadfb8262b92f44285c4f969cc87b",
+          "sha256": "512912a794d4554017223e0caff4b01c79ffa08a97965a0e7e9f40ed1946a7c0",
+          "sha1": "438e3a98661b599e559036382b5e6c4de4069e89",
+          "md5": "b4f0bc951a02f3d3e75a34a0b89c98b9"
+        }
+      ]
+    }
+  ]
+}
