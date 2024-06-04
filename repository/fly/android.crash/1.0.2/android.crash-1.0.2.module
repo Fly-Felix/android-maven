@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fly",
+    "module": "android.crash",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.crash-1.0.2.aar",
+          "url": "android.crash-1.0.2.aar",
+          "size": 22663,
+          "sha512": "14cad2ab38bdbf6d73a03f390fcbf1ed79a67f23aa13b6621d3a11ae1834ff5413fbb7d8fee0007f227637d5fd91fefa5cd6dc38c2017bfeac1f610ebe04fa97",
+          "sha256": "c127cfd4a801964de7b40a91ebbec47addeddfc65b58794730fc742ca03c0e4e",
+          "sha1": "bd40db014a521f5317fdfdfe496d1fcea8a9ff6d",
+          "md5": "da36a069a32fd7c7647507ddf807eade"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.crash-1.0.2.aar",
+          "url": "android.crash-1.0.2.aar",
+          "size": 22663,
+          "sha512": "14cad2ab38bdbf6d73a03f390fcbf1ed79a67f23aa13b6621d3a11ae1834ff5413fbb7d8fee0007f227637d5fd91fefa5cd6dc38c2017bfeac1f610ebe04fa97",
+          "sha256": "c127cfd4a801964de7b40a91ebbec47addeddfc65b58794730fc742ca03c0e4e",
+          "sha1": "bd40db014a521f5317fdfdfe496d1fcea8a9ff6d",
+          "md5": "da36a069a32fd7c7647507ddf807eade"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android.crash-1.0.2-sources.jar",
+          "url": "android.crash-1.0.2-sources.jar",
+          "size": 6612,
+          "sha512": "f770aa6c7e0023bb7dee686dbf0dd4e58dfeb08e720d932946170093e8a0a3f18b9bba53fab9ab4222ff87339d67a1121ee02bccfa059f2c02d0d82b6725dd27",
+          "sha256": "28621e7e1c28d1cd332e150fd583fe0846034008c714c07db407a1541adf0a9c",
+          "sha1": "a67da4a9ba892969fcec1b45cdb5deafdcaf71d1",
+          "md5": "c2967455eea64b12ebc5ca6effba84c2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android.crash-1.0.2-javadoc.jar",
+          "url": "android.crash-1.0.2-javadoc.jar",
+          "size": 335501,
+          "sha512": "8baaab0d606ed56ff53bbc4071c6adda604f9392d6263d48395ede44669638561ce7fb46ec24d4bcc3921ef811a1f49e1a4119ad81e0c667b702bda38a40aac2",
+          "sha256": "7d834e6801acb6361c5a59d7d6e2adf68b3dde3c4c0c9300dc9371f16a14ae47",
+          "sha1": "442995bcf20eb21fd58ed060761f7ea8a4fa6784",
+          "md5": "197d424faaf58d3703a309c788a3bf77"
+        }
+      ]
+    }
+  ]
+}

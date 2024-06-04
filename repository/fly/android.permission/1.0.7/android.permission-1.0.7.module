@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fly",
+    "module": "android.permission",
+    "version": "1.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.permission-1.0.7.aar",
+          "url": "android.permission-1.0.7.aar",
+          "size": 29835,
+          "sha512": "b6c433103371d7350299a57ae9488fde1e4443d66648ab0213852b42d2fe442d8f3ff1910fd103e5481c11e8345bea01782887c88606f2987abf54a377832499",
+          "sha256": "751c9d262132edd9e7fa510f96fe738ebe667fcf67c6b5195047f98f6869cc71",
+          "sha1": "729c33d10a836f8f74304e9c63fd6185ca5b5889",
+          "md5": "f9346d32bf65241210ec6833b8aad7ba"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.permission-1.0.7.aar",
+          "url": "android.permission-1.0.7.aar",
+          "size": 29835,
+          "sha512": "b6c433103371d7350299a57ae9488fde1e4443d66648ab0213852b42d2fe442d8f3ff1910fd103e5481c11e8345bea01782887c88606f2987abf54a377832499",
+          "sha256": "751c9d262132edd9e7fa510f96fe738ebe667fcf67c6b5195047f98f6869cc71",
+          "sha1": "729c33d10a836f8f74304e9c63fd6185ca5b5889",
+          "md5": "f9346d32bf65241210ec6833b8aad7ba"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android.permission-1.0.7-sources.jar",
+          "url": "android.permission-1.0.7-sources.jar",
+          "size": 12413,
+          "sha512": "83eb0daa1e0fa186526b3f58bc17c4e7b1f12bd4b8bd6850a69248b6807fa2ec47edf8a54e7384d3cce3b28020212e403c53bcf113246a9a2c943cfd028c9d8b",
+          "sha256": "b12da2de36eebbf92178e13ffd3eda90836a6d9b45f6946ab1b603d0015b6f75",
+          "sha1": "06a2b900552ab9f71f5090d052d2416cf942c277",
+          "md5": "c4bb34d62f229f45c7d34217ce354a45"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android.permission-1.0.7-javadoc.jar",
+          "url": "android.permission-1.0.7-javadoc.jar",
+          "size": 337011,
+          "sha512": "f44bafa4d93265ad0610907d3a7cd2cabcd61c51f3965b1c2c6a624daf613a35472d782ed0765095c07d2c3d000d18b14b33867648a5f6b9978349d1ebad2f6b",
+          "sha256": "05492dc9c8755d7118238d2f30f3c87591877a072417eda9496103962f78b11a",
+          "sha1": "f4bd76cb775e80c50b2ba36aaa8e607c0cfd01dd",
+          "md5": "9b544271961712eb6fb9206bb87ee69c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun.iconsole",
+    "module": "iconsole.login",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iconsole.login-1.0.0.aar",
+          "url": "iconsole.login-1.0.0.aar",
+          "size": 93852,
+          "sha512": "ba11abc81b5130ff1ea716004de9baaebcff40a87099d888ddde5178b5202510303ce6b5e7c21ccdd56c542810d377b3bc1769a66ec5efea3e25ca733a1bdd6a",
+          "sha256": "eee79c405444905ffe51408b38b6db0fbbba01cdf8e7726d783d7a6e29651d7c",
+          "sha1": "a66a02e950c88312785a46cb50057704a5ad8990",
+          "md5": "61f0ba0757d950bb0efeb7535e53228a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.0.0-alpha.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-scalars",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iconsole.login-1.0.0.aar",
+          "url": "iconsole.login-1.0.0.aar",
+          "size": 93852,
+          "sha512": "ba11abc81b5130ff1ea716004de9baaebcff40a87099d888ddde5178b5202510303ce6b5e7c21ccdd56c542810d377b3bc1769a66ec5efea3e25ca733a1bdd6a",
+          "sha256": "eee79c405444905ffe51408b38b6db0fbbba01cdf8e7726d783d7a6e29651d7c",
+          "sha1": "a66a02e950c88312785a46cb50057704a5ad8990",
+          "md5": "61f0ba0757d950bb0efeb7535e53228a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "iconsole.login-1.0.0-sources.jar",
+          "url": "iconsole.login-1.0.0-sources.jar",
+          "size": 18122,
+          "sha512": "1d258163a61786b69532db47799ffc7a7705720296e75c7f81ebe1da16eae8f8d596d09cbe96adecca05e83edbc580ca67e884fb02729a152fbce22fd329b553",
+          "sha256": "611702e042354f9753c7274de35b604f16d2cf613124c0a2bcd22100f584a096",
+          "sha1": "9e89c2060c2d525e73dc441429ebdf4b48f84b6b",
+          "md5": "bd95a653fb9ba64a58090e93fdb5fe09"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "iconsole.login-1.0.0-javadoc.jar",
+          "url": "iconsole.login-1.0.0-javadoc.jar",
+          "size": 440203,
+          "sha512": "36daccdddd58f0d7d7ea9a5856963dac04ea5261b651b6da0464076e378ceadeeed92abe3acc06c62c2f4fd36165831770f37075e3ed4047309ff5e2f1f525b1",
+          "sha256": "5d6269f6decf704f415755cc2b480b8ece1c72722760a06ca48cb4421eccd6f4",
+          "sha1": "156df2314a9b698e14d885d90113d911dc262598",
+          "md5": "65976f9da484b2298146a3c6f5c62be6"
+        }
+      ]
+    }
+  ]
+}

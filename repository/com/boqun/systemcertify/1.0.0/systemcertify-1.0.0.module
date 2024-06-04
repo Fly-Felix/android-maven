@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun",
+    "module": "systemcertify",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "systemcertify-1.0.0.aar",
+          "url": "systemcertify-1.0.0.aar",
+          "size": 2751,
+          "sha512": "1051b7d15ea6506eaea17a3dd17d0603ed111d6f0d2c00cff1eedefb2d10e5751c552340dba60aca166b0817335abf072f287f9f24cb9ee5c8afd393dea1384b",
+          "sha256": "58bbc8abe7afcf3108ccaeec143fdea98cbcc2c4f4dff012b3a1a5416063e29f",
+          "sha1": "28cb53c90b9f22c39424b15fa669f6f1ad3f0209",
+          "md5": "e8bc31f8147cc2ffa2d777bbf69499f4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "systemcertify-1.0.0.aar",
+          "url": "systemcertify-1.0.0.aar",
+          "size": 2751,
+          "sha512": "1051b7d15ea6506eaea17a3dd17d0603ed111d6f0d2c00cff1eedefb2d10e5751c552340dba60aca166b0817335abf072f287f9f24cb9ee5c8afd393dea1384b",
+          "sha256": "58bbc8abe7afcf3108ccaeec143fdea98cbcc2c4f4dff012b3a1a5416063e29f",
+          "sha1": "28cb53c90b9f22c39424b15fa669f6f1ad3f0209",
+          "md5": "e8bc31f8147cc2ffa2d777bbf69499f4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "systemcertify-1.0.0-sources.jar",
+          "url": "systemcertify-1.0.0-sources.jar",
+          "size": 1599,
+          "sha512": "a5d747ed88c5f4cdc191f709a67b72ac988de80ab681cc3d72780339f8fb2b1e62299a6502f6967b0e23e397ffeb5e589e8c98e932497073091d86bf432c330d",
+          "sha256": "c68666b39823e29036f73d02469428c592583fa55f141c2f10b880825f7f82d0",
+          "sha1": "5e954a879a7f6d86e19e766f231ce19765754777",
+          "md5": "dde779b795f3803645c5ed0c04187495"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "systemcertify-1.0.0-javadoc.jar",
+          "url": "systemcertify-1.0.0-javadoc.jar",
+          "size": 285546,
+          "sha512": "d7574358e79a271216a7c71e918c616a0f742e67d638b84f38307c23152e406e4b28cbb29aa582a7634c990bb8d1ac8c04a74cb0d6b220b93f9c41d8b102e113",
+          "sha256": "e28e5602adade8e0443ad39ec1ea8ef29453fdc45c8ded11bd2af1a6623ddc50",
+          "sha1": "57648124bf17efdd2c3f353437647cca1b223aaa",
+          "md5": "7c9b5007e004784ddd3485a8cb34540c"
+        }
+      ]
+    }
+  ]
+}

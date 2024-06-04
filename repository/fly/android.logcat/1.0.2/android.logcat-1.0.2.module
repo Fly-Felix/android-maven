@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fly",
+    "module": "android.logcat",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.logcat-1.0.2.aar",
+          "url": "android.logcat-1.0.2.aar",
+          "size": 22662,
+          "sha512": "23006925769215abb9c5610ca0352bb52c9fcbb2a98757bf4e6dfa87b3fcbcaf202f93f630b162a6ff881235771970317de856eee04f981cc96e9e7f902c19d5",
+          "sha256": "aaffd95aaff4abe14ddf68b9b1c7dadbdfff5b2ad0ecc35ea95a4e4dc6cdd843",
+          "sha1": "c529f5f13bc972f0713cd3b11384484726b4c405",
+          "md5": "082532bbb20682bfa0a014ded5983a70"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.logcat-1.0.2.aar",
+          "url": "android.logcat-1.0.2.aar",
+          "size": 22662,
+          "sha512": "23006925769215abb9c5610ca0352bb52c9fcbb2a98757bf4e6dfa87b3fcbcaf202f93f630b162a6ff881235771970317de856eee04f981cc96e9e7f902c19d5",
+          "sha256": "aaffd95aaff4abe14ddf68b9b1c7dadbdfff5b2ad0ecc35ea95a4e4dc6cdd843",
+          "sha1": "c529f5f13bc972f0713cd3b11384484726b4c405",
+          "md5": "082532bbb20682bfa0a014ded5983a70"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android.logcat-1.0.2-sources.jar",
+          "url": "android.logcat-1.0.2-sources.jar",
+          "size": 6620,
+          "sha512": "258cd376e954801421ab7f255bc75f3a6f75d931115bada5f48473bd45ec1b32db9a32446a89763db01d071f0b427aaadf13401091626e4d2448bb96c3cd5159",
+          "sha256": "5340b2a942c116f7cf0acf4f5eb65596c82e1ca40ffe69749624adbeba775b98",
+          "sha1": "4cb4e2a80bb01b7790697ae944bd661932d1afc8",
+          "md5": "a95749cf160b842556c0c60aef69b14e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android.logcat-1.0.2-javadoc.jar",
+          "url": "android.logcat-1.0.2-javadoc.jar",
+          "size": 335490,
+          "sha512": "5b83026ac60c698e1528729a80675398351e5ac4e4bb9c00526ef52901326d6f96ce4044fc34fd5f3d28a582a765d76990bfb9083f1972fa114075283a9b26e0",
+          "sha256": "c129d998a1336e2bc0f4bc7ed8557b141512b67966c38aa608ccac50000a7781",
+          "sha1": "bd7e3b8973a82dabcc9e884cd2702445eb59be8e",
+          "md5": "ab43f2f24fe76925d029f4e30472da0a"
+        }
+      ]
+    }
+  ]
+}
