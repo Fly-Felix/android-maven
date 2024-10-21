@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun.sportservice",
+    "module": "sportservice.core",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sportservice.core-1.0.5.aar",
+          "url": "sportservice.core-1.0.5.aar",
+          "size": 47375,
+          "sha512": "b40fafa9c6d1791a4f9c2931ae84187303922a49cedc6c45722874145e0242042d1f0327343e70454b468bdd907b3030cfacae18ec37a1fd8fff7ca2ccf333aa",
+          "sha256": "11e9b28d3be0958bcf44ddf143791370b2840bc54b1716f2875afe7b4e894b35",
+          "sha1": "a4a21c4eb545a5783110da5cdb9a294e32286a75",
+          "md5": "f34f7c7fe186f117b20a93c31f261b3a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sportservice.core-1.0.5.aar",
+          "url": "sportservice.core-1.0.5.aar",
+          "size": 47375,
+          "sha512": "b40fafa9c6d1791a4f9c2931ae84187303922a49cedc6c45722874145e0242042d1f0327343e70454b468bdd907b3030cfacae18ec37a1fd8fff7ca2ccf333aa",
+          "sha256": "11e9b28d3be0958bcf44ddf143791370b2840bc54b1716f2875afe7b4e894b35",
+          "sha1": "a4a21c4eb545a5783110da5cdb9a294e32286a75",
+          "md5": "f34f7c7fe186f117b20a93c31f261b3a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sportservice.core-1.0.5-sources.jar",
+          "url": "sportservice.core-1.0.5-sources.jar",
+          "size": 13247,
+          "sha512": "2ac8057533da96203fee6913c988c3bf319c60d084f04efee3c9c191cb28958c2f0cb0e741a27d7f42729615f501dcb5a7ddb512fa9284dff9d2af752b6e9fb8",
+          "sha256": "0d81de7e07e5fa93a796c31cca2c6146af39859aec3f398482e48c95e08626a3",
+          "sha1": "6bb885b3b64c3d1632b6c909bc6463b867876a25",
+          "md5": "a0ad9042219c8ef484c38d6f341571e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sportservice.core-1.0.5-javadoc.jar",
+          "url": "sportservice.core-1.0.5-javadoc.jar",
+          "size": 393452,
+          "sha512": "7c19cb882752cc58ba66bb5732664743dd6565fb4b154c833bb6217f399aa36b2834257f96f1ddde1b62f3239e3a3e0da0f2d203c9a71bbde02dca0880e5a3ef",
+          "sha256": "efa316a82f87dba91fccbd7e2471f2ca4dbafea55da78f608bbcf3ee711ec385",
+          "sha1": "d81f06ef2884f47a77972e159d55ed3f16350f0a",
+          "md5": "91767b1c490003f28ac89c81e9d7f4c4"
+        }
+      ]
+    }
+  ]
+}
