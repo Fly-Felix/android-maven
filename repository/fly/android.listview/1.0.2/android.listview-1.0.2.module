@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fly",
+    "module": "android.listview",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.listview-1.0.2.aar",
+          "url": "android.listview-1.0.2.aar",
+          "size": 20177,
+          "sha512": "abe35d181e359245dd5870eeb670772c285273021ca26a0e6f2e33d00003b0a5d5dd0e90887c3903271b782be703382b127d64315aeb2fc7eb57b3dec46e65ba",
+          "sha256": "386b646de15d434030ccbbdcaa0caa70481e33b159a7487b113bd632c4125b5f",
+          "sha1": "0640731b0c4e0899c0ffb4ab3467ef2f020548c3",
+          "md5": "f7c7a9d3e9778796e3b5d1e70f39fb51"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview-selection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android.listview-1.0.2.aar",
+          "url": "android.listview-1.0.2.aar",
+          "size": 20177,
+          "sha512": "abe35d181e359245dd5870eeb670772c285273021ca26a0e6f2e33d00003b0a5d5dd0e90887c3903271b782be703382b127d64315aeb2fc7eb57b3dec46e65ba",
+          "sha256": "386b646de15d434030ccbbdcaa0caa70481e33b159a7487b113bd632c4125b5f",
+          "sha1": "0640731b0c4e0899c0ffb4ab3467ef2f020548c3",
+          "md5": "f7c7a9d3e9778796e3b5d1e70f39fb51"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android.listview-1.0.2-sources.jar",
+          "url": "android.listview-1.0.2-sources.jar",
+          "size": 7402,
+          "sha512": "6d8ba191ac02335c4583a08529ef2e7e08bace283ef2372fc04e786ecde92147b6b8e425941e6b4b2d609cdf7275e40384c6c33b97579790733400bd4fdda9ff",
+          "sha256": "a5b9455b42f8804c4e9d550fa0b32007ca0c207d33e8a873132d7203586c27a0",
+          "sha1": "83e67e4a4616eb00da4fe63ec08ee5b9b6bd62a7",
+          "md5": "f166f4220ef33a9c18d7647fc2f71844"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android.listview-1.0.2-javadoc.jar",
+          "url": "android.listview-1.0.2-javadoc.jar",
+          "size": 332342,
+          "sha512": "54e769a3f333b9d176d83c901ee4d41888975edfc48fce59bf2a26c47a3fba7da5e01bd56223e8e5ea6e06b0a6d619b84a4e4f32648646f19accf2b0fa1d4aea",
+          "sha256": "5255095c313d58c173c551d949d90a2c3900fd14b90fa422c713e4b550392bf0",
+          "sha1": "95dc01373b2054714c801d12e826f2b71c2aae38",
+          "md5": "6bc2900cea43992ee4c79bf44bbff447"
+        }
+      ]
+    }
+  ]
+}
