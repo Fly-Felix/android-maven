@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jerome.com.usbcamera",
+    "module": "usbcamera",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "usbcamera-1.0.0.aar",
+          "url": "usbcamera-1.0.0.aar",
+          "size": 107241,
+          "sha512": "d8ce6ec8360d775d6315c5afa90665e3570f4c62d9f7be2cdd647bed8bbb9413b2527c29bf8d8499f6b78c50b870e25fae7b25bb313f8bcc82a285d715cc6639",
+          "sha256": "d4dfa930c925bff9285afcd569c264f3886e8ad693a49b6fa6ced186ccc0e826",
+          "sha1": "51567fb0a720968af2f4e11407b5163545149b3d",
+          "md5": "8edaefb2283a3b5a7f4b53a0f7f3e951"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "usbcamera-1.0.0.aar",
+          "url": "usbcamera-1.0.0.aar",
+          "size": 107241,
+          "sha512": "d8ce6ec8360d775d6315c5afa90665e3570f4c62d9f7be2cdd647bed8bbb9413b2527c29bf8d8499f6b78c50b870e25fae7b25bb313f8bcc82a285d715cc6639",
+          "sha256": "d4dfa930c925bff9285afcd569c264f3886e8ad693a49b6fa6ced186ccc0e826",
+          "sha1": "51567fb0a720968af2f4e11407b5163545149b3d",
+          "md5": "8edaefb2283a3b5a7f4b53a0f7f3e951"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "usbcamera-1.0.0-sources.jar",
+          "url": "usbcamera-1.0.0-sources.jar",
+          "size": 39657,
+          "sha512": "323a54a2a1a2673bbb0dd96d4645e3b942a7e58edbb201809e41bfb2709b524e77353f0f20f3b0b0245fb5fb8ee031caa49d817962be779d0c1e89527f0ce847",
+          "sha256": "676c5661c2d4647f02fcbe646457797fce69a719e821a5c3aea33f48f5028d64",
+          "sha1": "e55c8f7d1aecf132f5ea3f9b71d21648fcccb6c1",
+          "md5": "cd3cb634b5b0a85c2268ada359f07e3f"
+        }
+      ]
+    }
+  ]
+}
