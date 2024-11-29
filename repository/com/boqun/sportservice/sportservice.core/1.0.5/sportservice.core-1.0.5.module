@@ -35,11 +35,11 @@
         {
           "name": "sportservice.core-1.0.5.aar",
           "url": "sportservice.core-1.0.5.aar",
-          "size": 47375,
-          "sha512": "b40fafa9c6d1791a4f9c2931ae84187303922a49cedc6c45722874145e0242042d1f0327343e70454b468bdd907b3030cfacae18ec37a1fd8fff7ca2ccf333aa",
-          "sha256": "11e9b28d3be0958bcf44ddf143791370b2840bc54b1716f2875afe7b4e894b35",
-          "sha1": "a4a21c4eb545a5783110da5cdb9a294e32286a75",
-          "md5": "f34f7c7fe186f117b20a93c31f261b3a"
+          "size": 49955,
+          "sha512": "59bade00f232e7b79671838d04421375f9d178375ca9b071e03b3fd20c2f5d4758ee37e3daf4ed0ca08b3b9b9bc809b13105640bdb228455d3db5d64cf2ac891",
+          "sha256": "e8db20777ea17c21c5a593755583ca6068c54c24b92679980995938a309ba334",
+          "sha1": "209e5e8495425e9826f7ad4681ac5eec6494c600",
+          "md5": "842cfea6d49f42ef23e3c23ed698daca"
         }
       ]
     },
@@ -78,11 +78,11 @@
         {
           "name": "sportservice.core-1.0.5.aar",
           "url": "sportservice.core-1.0.5.aar",
-          "size": 47375,
-          "sha512": "b40fafa9c6d1791a4f9c2931ae84187303922a49cedc6c45722874145e0242042d1f0327343e70454b468bdd907b3030cfacae18ec37a1fd8fff7ca2ccf333aa",
-          "sha256": "11e9b28d3be0958bcf44ddf143791370b2840bc54b1716f2875afe7b4e894b35",
-          "sha1": "a4a21c4eb545a5783110da5cdb9a294e32286a75",
-          "md5": "f34f7c7fe186f117b20a93c31f261b3a"
+          "size": 49955,
+          "sha512": "59bade00f232e7b79671838d04421375f9d178375ca9b071e03b3fd20c2f5d4758ee37e3daf4ed0ca08b3b9b9bc809b13105640bdb228455d3db5d64cf2ac891",
+          "sha256": "e8db20777ea17c21c5a593755583ca6068c54c24b92679980995938a309ba334",
+          "sha1": "209e5e8495425e9826f7ad4681ac5eec6494c600",
+          "md5": "842cfea6d49f42ef23e3c23ed698daca"
         }
       ]
     },
@@ -98,11 +98,11 @@
         {
           "name": "sportservice.core-1.0.5-sources.jar",
           "url": "sportservice.core-1.0.5-sources.jar",
-          "size": 13247,
-          "sha512": "2ac8057533da96203fee6913c988c3bf319c60d084f04efee3c9c191cb28958c2f0cb0e741a27d7f42729615f501dcb5a7ddb512fa9284dff9d2af752b6e9fb8",
-          "sha256": "0d81de7e07e5fa93a796c31cca2c6146af39859aec3f398482e48c95e08626a3",
-          "sha1": "6bb885b3b64c3d1632b6c909bc6463b867876a25",
-          "md5": "a0ad9042219c8ef484c38d6f341571e8"
+          "size": 13808,
+          "sha512": "2845daa5dadaf5053611fd40832a3b6aa8c1ac03199b380babf7c9c005180e256c00089ae33446436598449d4bff42061543174a8f9549d7426551d81f8a7731",
+          "sha256": "ad1a2558810aed86c2260c97c16c3f2dc3369e5d0c8f0da6b13d8ddd59a9d9f5",
+          "sha1": "fe0451e4475763f98dd3d4c65b5012023554259c",
+          "md5": "f9b70fd8f7aca7fba76c0c71a3ddeea2"
         }
       ]
     },
@@ -118,11 +118,11 @@
         {
           "name": "sportservice.core-1.0.5-javadoc.jar",
           "url": "sportservice.core-1.0.5-javadoc.jar",
-          "size": 393452,
-          "sha512": "7c19cb882752cc58ba66bb5732664743dd6565fb4b154c833bb6217f399aa36b2834257f96f1ddde1b62f3239e3a3e0da0f2d203c9a71bbde02dca0880e5a3ef",
-          "sha256": "efa316a82f87dba91fccbd7e2471f2ca4dbafea55da78f608bbcf3ee711ec385",
-          "sha1": "d81f06ef2884f47a77972e159d55ed3f16350f0a",
-          "md5": "91767b1c490003f28ac89c81e9d7f4c4"
+          "size": 398105,
+          "sha512": "34ca845acd4a47ff27ca5a173dbb5e5a01d24944efeb639440bf1551b0aa7a2ed8068c941f92b3f8ed32a7ac64769d3a3e3a051f6d25a4b9e6425847d7007685",
+          "sha256": "a5b4ae3fc620067bf7706ea1913d76436a87ac9b2164c11b5800f7b59a953955",
+          "sha1": "bbf58d24fc0021157c3c41a63dbfed31b79b5f9d",
+          "md5": "2d69625ea9d1af58bc449ee0396a292d"
         }
       ]
     }
